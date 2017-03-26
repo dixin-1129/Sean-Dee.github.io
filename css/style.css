@@ -400,27 +400,27 @@ a {
   text-decoration: none; }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2em;
   font-family: Athelas, STHeiti, Microsoft Yahei, serif; }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.5em;
   font-family: Athelas, STHeiti, Microsoft Yahei, serif; }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.2em;
   font-family: Athelas, STHeiti, Microsoft Yahei, serif; }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1em;
   font-family: Athelas, STHeiti, Microsoft Yahei, serif; }
 
 h5 {
-  font-size: 1.1rem;
+  font-size: 0.8em;
   font-family: Athelas, STHeiti, Microsoft Yahei, serif; }
 
 h6 {
-  font-size: 1rem;
+  font-size: 0.6em;
   font-family: Athelas, STHeiti, Microsoft Yahei, serif; }
 
 .container {
@@ -723,6 +723,10 @@ h6 {
       content: "YAML"; }
     .post .post-content .highlight.stylus > ::after {
       content: "Stylus"; }
+    .post .post-content .highlight.sql > ::after {
+      content: "SQL"; }
+    .post .post-content .highlight.http > ::after {
+      content: "HTTP"; }
     .post .post-content .highlight .code pre {
       margin: 0;
       padding: 30px 10px 10px; }
